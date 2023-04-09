@@ -6,7 +6,7 @@
 
 Handyy is a frontend website designed to showcase and sell handcrafted products online. It is an online marketplace where handcrafters can display their products to a wide audience and connect with potential buyers. The website is built with HTML, CSS, and JavaScript and utilizes GSAP animations to provide a smooth and visually appealing user experience.
 
-You can view site live at : i-vipulpandey.github.io/handy/
+You can view site live at : (i-vipulpandey.github.io/handy/)
 
 ## Table of Contents
 
