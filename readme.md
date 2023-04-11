@@ -22,6 +22,24 @@ To install the project locally, follow these steps:
 2. Navigate to the project directory: `cd handyy`
 3. Open the `index.html` file in your preferred web browser.
 
+
+## Screenshots
+
+- Desktop View
+
+
+![desktopImage](assets/images/handy-dsk.png)
+
+
+
+
+- Mobile View
+
+
+![mobileImage](assets/images/handy-mob.png)
+    
+
+
 ## Contributing
 
 Contributions are welcome! To contribute to the project, follow these steps:
