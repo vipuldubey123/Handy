@@ -443,8 +443,7 @@ button.ghost {
     gap: 1vw;
 }
 
-.part3 a,
-.account-login-signup {
+.part3 a {
     text-decoration: none;
     color: #111;
     display: flex;
@@ -459,7 +458,7 @@ button.ghost {
 }
 
 .part3 a span {
-    display: inline;
+    display: inline-flex;
     align-items: center;
     font-weight: 500;
 }

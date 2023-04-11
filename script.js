@@ -377,11 +377,6 @@ function productClickShow() {
 // }
 
 
-function cartCounter() {
-   
-    
-    
-}
 
 function loginSignup() {
     const signUpButton = document.getElementById('signUp');
@@ -417,7 +412,6 @@ if (window.innerWidth < 600) {
     CircleMoving();
     circleBigSolidBG();
     pageClose();
-    cartCounter();
     loginSignup();
     accountClickShow();
 }
@@ -435,7 +429,6 @@ else {
     CircleMoving();
     circleBigSolidBG();
     pageClose();
-    cartCounter();
     loginSignup();
     accountClickShow();
 }

@@ -10,7 +10,7 @@
     }
 
          .nav {
-            padding: 3VW;
+            padding: 1VW 3vw;
          }    
 
     #main {
@@ -54,25 +54,41 @@
         font-size: 5vw;
     }
 
+    .nav{
+        height: 6vh;
+    }
+
     .nav .part2 a {
         display: none;
     }
 
     .part2 input {
-        width: 35vw;
+        width: 35vw !important;
         font-size: 2vw;
+        background-color: #dcd8d8e4;
+        padding: 1vw 2vw;
     }
 
     .part2 i {
         font-size: 2vw;
     }
 
+    .part2 a{
+        display: none;
+    }
+
     .nav .part3 {
+        display: flex;
+        align-items: center;
         gap: 2vw;
     }
 
+    .part3 a span{
+        display: none;
+    }
+
     .nav .part3 i {
-        font-size: 2.3vw;
+        font-size: 3vw;
     }
 
     .nav .part3 span {
