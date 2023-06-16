@@ -1352,7 +1352,7 @@ footer .footer-cover-parallax {
     bottom: 0;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .footer-content {
@@ -1431,84 +1431,6 @@ footer .footer-cover-parallax {
     z-index: 9999;
 
 }
-
-.emoji {
-    height: 10vw;
-    width: 10vw;
-    perspective: 80000px;
-    transform-origin: center;
-    background-color: #f0f04a;
-    border-radius: 50%;
-}
-
-.emoji::after {
-    content: "";
-    position: absolute;
-    height: .6vw;
-    width: 4vw;
-    border-radius: 50%;
-    border-bottom: 1vw solid #2c2c2b;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-
-.eyes {
-    position: absolute;
-    top: 30%;
-    width: 100%;
-    text-align: center;
-
-}
-
-.eye {
-    width: 1.796875vw;
-    height: 2.34375vw;
-    background: #fff;
-    display: inline-block;
-    border-radius: 50%;
-    position: relative;
-    overflow: hidden;
-}
-
-#left-eye {
-    top: .5px;
-    position: relative;
-    left: -8.5px;
-}
-
-#right-eye {
-    top: .5px;
-    position: relative;
-    right: -8.5px;
-}
-
-.ball {
-    width: 1.015625vw;
-    height: 1.328125vw;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 50%;
-    background-color: rgba(17, 17, 17, 0.678);
-    border: 3px solid #a274ffb6;
-}
-
-.ball::after {
-    content: "";
-    display: inline-block;
-    position: relative;
-    height: 0.390625vw;
-    width: 0.390625vw;
-    border-radius: 50%;
-    background-color: #fff;
-    top: -130%;
-    left: 30%;
-}
-
-
 .contacts {
     display: flex;
     flex-direction: column;
@@ -1516,6 +1438,7 @@ footer .footer-cover-parallax {
     gap: .4vh;
     position: relative;
     top: -1.1vh;
+    left: 10vw;
 }
 
 .contacts h5 {
